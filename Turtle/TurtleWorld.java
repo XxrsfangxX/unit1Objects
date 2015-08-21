@@ -62,26 +62,6 @@ public class TurtleWorld
         turtle.forward(10);
         turtle.turn(10);
         turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
-        turtle.turn(10);
-        turtle.forward(10);
         turtle.penUp();
         turtle.turn(90);
         turtle.forward(20);
@@ -99,6 +79,15 @@ public class TurtleWorld
         turtle.forward(1);
         turtle.penUp();
         turtle.forward(100);
-
+        turtle.hide();
+        for( int i=1; i<=100; i++){
+            turtle.show();
+            turtle.setPenColor(Color.RED);
+            turtle.turn(10);
+            turtle.forward(10);
+            turtle.turn(10);
+            turtle.forward(10);
+            }
+        }
     }
-}
+       
