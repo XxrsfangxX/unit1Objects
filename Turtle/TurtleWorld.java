@@ -99,6 +99,9 @@ public class TurtleWorld
         turtle.forward(1);
         turtle.penUp();
         turtle.forward(100);
+        for(int i=1; i<101; i++){
+            
+        }
 
     }
 }
